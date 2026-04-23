@@ -1,7 +1,10 @@
 /* CSS BY ASHLYN FIRLIK */
 
 /* IMPORTED FONTS*/
-/* IMPORT "INTER" FROM GOOGLE FONTS"
+/* IMPORT "INTER" FROM GOOGLE FONTS" */
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+</style>
 
 /* CSS RESET */
 /* http://meyerweb.com/eric/tools/css/reset/
@@ -35,6 +38,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
     line-height: 1;
+    font-family: Inter, sans-serif;
 }
 ol, ul {
     list-style: none;
@@ -86,6 +90,13 @@ nav {
 nav a {
     text-decoration: none;
     color: var(--blue);
+}
+
+nav ul {
+    display: flex;
+    gap: 1.5rem;
+    margin-right: 2rem;
+    gap: 1.5rem;
 }
 
 body {
