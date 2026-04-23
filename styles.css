@@ -69,9 +69,18 @@ table {
     gap: 1rem;
 }
 
+header .container {
+    display: flex;
+    align-items: center;
+}
+
 header {
-    background-color: var(--black);
     color: var(--blue);
+    background-color: var(--black);
+}
+
+nav {
+    margin-left: auto;
 }
 
 nav a {
