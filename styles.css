@@ -63,7 +63,7 @@ table {
 }
 
 /* GLOBAL STYLES (MOBILE FIRST (SMALL) */
-section:nth-of-type(3) {
+#services .container {
     display: grid;
     grid-template-columns: 1fr;
     gap: 1rem;
@@ -75,15 +75,15 @@ body {
 
 /* MEDIUM */
 @media (min-width: 800px) {
-    section:nth-of-type(3) > div {
+    #services .container {
     grid-template-columns: repeat(2, 1fr);
     }
 }
 
 /* LARGE */
 @media (min-width: 1024px) {
-    section:nth-of-type(3) > div {
-        grid-template-columns: repeat(3, 2fr);
+    #services .container {
+        grid-template-columns: repeat(3, 1fr);
     }
 }
 
