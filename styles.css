@@ -134,6 +134,12 @@ header img {
     background: url('images/vanguard-logo.svg') no-repeat center/contain;
 
 }
+
+nav h2 {
+    position: absolute;
+    opacity: 0%;
+}
+
 /* THIS ONE IS DONE FOR YOU */
 #bar-chart {
     display: grid;
