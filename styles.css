@@ -73,20 +73,6 @@ body {
     min-width: 400px;
 }
 
-/* MEDIUM */
-@media (min-width: 800px) {
-    .services .container {
-    grid-template-columns: repeat(2, 1fr);
-    }
-}
-
-/* LARGE */
-@media (min-width: 1024px) {
-    #services .container {
-        grid-template-columns: repeat(3, 1fr);
-    }
-}
-
 /* MIN-WIDTH OF THE PAGE SHOULD NOT GO BELOW 400PX */
 
 /* ADD A DIV WITH THE CLASS OF CONTAINER TO EVERY CONTENT CONTAINER THIS IS ALLOW THE BASE ELEMENTS TO BE 100% WIDTH, BUT CONSTRAIN THE ACTUAL CONTENT TO 90% */
@@ -178,12 +164,18 @@ body {
         flex-direction: row;
         justify-content: space-between;
     }
-    .results-table {
+    #results-table {
         width: 50%;
     }
-    .bar-chart {
+    #bar-chart {
         width: 50%;
     }
 }
 
 /* MEDIA QUERIES (LARGE) */
+
+@media (min-width: 1024px) {
+    #services .container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
