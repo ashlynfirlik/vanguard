@@ -75,7 +75,7 @@ body {
 
 /* MEDIUM */
 @media (min-width: 800px) {
-    #services .container {
+    .services .container {
     grid-template-columns: repeat(2, 1fr);
     }
 }
@@ -167,13 +167,14 @@ body {
 /* MEDIA QUERIES (MEDIUM) */ 
 
 @media (min-width: 800px) {
-    .services .container {
+    #services .container {
     grid-template-columns: repeat(2, 1fr);
     }
     .results {
         grid-template-columns: 1fr 1fr;
     }
     .results-container {
+        display: flex;
         flex-direction: row;
         justify-content: space-between;
     }
