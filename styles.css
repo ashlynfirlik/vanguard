@@ -166,7 +166,11 @@ body {
 
 /* MEDIA QUERIES (MEDIUM) */ 
 
-    #results {
+@media (min-width: 800px) {
+    .services .container {
+    grid-template-columns: repeat(2, 1fr);
+    }
+    .results {
         grid-template-columns: 1fr 1fr;
     }
     .results-container {
@@ -179,6 +183,6 @@ body {
     .bar-chart {
         width: 50%;
     }
-
+}
 
 /* MEDIA QUERIES (LARGE) */
