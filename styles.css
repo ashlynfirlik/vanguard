@@ -73,12 +73,17 @@ table {
     gap: 1rem;
 }
 
-header .container {
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 4%;
+}
+
+.nav-left {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    width: 100%;
-    margin: 0;
+    gap: 12px;
 }
 
 header {
@@ -86,10 +91,7 @@ header {
     background-color: var(--black);
 }
 
-
-
 nav {
-    margin-left: auto;
     padding-bottom: 1.5rem;
 }
 
