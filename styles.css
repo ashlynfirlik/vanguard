@@ -235,8 +235,21 @@ nav h2 {
     color: var(--white);
 }
 
+#results-table th {
+    font-weight: bold;
+    padding: 20px 0 20px 0;
+    border: 0.7px solid var(--charcoal);
+}
+
+#results-table td {
+    padding: 20px 0 20px 0;
+    border: 0.7px solid var(--charcoal);
+}
+
 #results-table tr {
     background-color: var(--black);
+    color: var(--white);
+    text-align: center;
 }
 
 #results-table tr:nth-child(3), #results-table tr:nth-child(5) {
