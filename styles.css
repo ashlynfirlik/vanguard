@@ -318,13 +318,26 @@ nav h2 {
     background-color: var(--black);
     color: var(--white);
     margin: 0;
-    padding-top: 8px;
+    padding-top: 10px;
 }
 
 #contact h2 {
     padding-left: 15px;
 }
 
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+}
+
+input {
+    height: 40px;
+}
+
+label {
+    padding-top: 13px;
+}
 
 /* MEDIA QUERIES (MEDIUM) */ 
 
