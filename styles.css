@@ -339,6 +339,17 @@ label {
     padding-top: 13px;
 }
 
+button[type="submit"] {
+    background-color: var(--blue);
+    color: var(--white);
+    border-radius: 0.5rem;
+    padding: 15px;
+    margin-top: 35px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
 /* MEDIA QUERIES (MEDIUM) */ 
 
 @media (min-width: 800px) {
