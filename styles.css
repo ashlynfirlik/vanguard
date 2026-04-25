@@ -177,17 +177,19 @@ p {
 
 #services h2 {
     padding-left: 15px;
+    grid-column: 1/-1;
 }
 
 .service {
     background-color: var(--blue);
-    padding: 10px;
+    padding: 10px 0 4px 8px;
     border-radius: 0.5rem;
 }
 
 .service h3 {
     color: var(--white);
-    padding-left: 15px;
+    padding-left: 20px;
+    text-wrap: wrap;
 }
 
 .service p {
@@ -279,6 +281,10 @@ nav h2 {
     #bar-chart {
         width: 50%;
     }
+    .service h3 {
+        text-wrap: wrap;
+        max-width: 20ch;
+    }
 }
 
 /* MEDIA QUERIES (LARGE) */
@@ -286,5 +292,9 @@ nav h2 {
 @media (min-width: 1024px) {
     #services .container {
         grid-template-columns: repeat(3, 1fr);
+    }
+    .service h3 {
+        text-wrap: wrap;
+        max-width: 20ch;
     }
 }
