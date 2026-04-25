@@ -100,6 +100,10 @@ h1 {
     margin: 0;
 }
 
+h2 {
+    font-size: 1.7rem;
+}
+
 nav a {
     text-decoration: none;
     color: var(--blue);
@@ -221,14 +225,19 @@ nav h2 {
     grid-template-columns: 1fr;
     gap: 2rem;
     justify-content: center;
+    padding-bottom: 25px;
 }
 
 #results h2 {
     color: var(--white);
+    padding-top: 25px;
+    padding-left: 15px;
 }
 
 #results h3 {
     color: var(--white);
+    font-size: 1.7rem;
+    padding-left: 15px;
 }
 
 #results p {
