@@ -189,7 +189,6 @@ p {
 .service h3 {
     color: var(--white);
     padding-left: 20px;
-    text-wrap: wrap;
 }
 
 .service p {
@@ -283,7 +282,8 @@ nav h2 {
     }
     .service h3 {
         text-wrap: wrap;
-        max-width: 20ch;
+        max-width: 22ch;
+        line-height: 1.7rem;
     }
 }
 
@@ -295,6 +295,7 @@ nav h2 {
     }
     .service h3 {
         text-wrap: wrap;
-        max-width: 20ch;
+        max-width: 22ch;
+        line-height: 1.7rem;
     }
 }
