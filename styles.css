@@ -144,7 +144,7 @@ body {
 
 .blur {
     backdrop-filter: blur(10px);
-    padding: 10px;
+    padding: 8px 8px 18px 8px;
 }
 
 .blur a {
@@ -156,9 +156,16 @@ body {
     padding: 15px 12px;
 }
 
+.blur p {
+    color: var(--white);
+    padding-bottom: 15px;
+    padding-top: 5px;
+}
+
 h2 {
     color: var(--white);
 }
+
 
 
 /* ADD FLOATING SVG LOGO BEFORE THE H1 */
