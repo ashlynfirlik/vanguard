@@ -142,6 +142,13 @@ body {
     width: 100vw;
 }
 
+.blur {
+    backdrop-filter: blur(10px);
+    padding: 10px;
+}
+
+
+
 /* ADD FLOATING SVG LOGO BEFORE THE H1 */
 header img {
     content: "";
