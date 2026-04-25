@@ -218,30 +218,9 @@ nav h2 {
 
 .results-container {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     gap: 2rem;
 }
-
-.results-container h3:nth-of-type(1) {
-    grid-column: 1;
-    grid-row: 1;
-}
-
-#results-table {
-    grid-column: 1;
-    grid-row: 2;
-}
-
-.results-container h3:nth-of-type(2) {
-    grid-column: 2;
-    grid-row: 1;
-}
-
-#bar-chart {
-    grid-column: 2;
-    grid-row: 2;
-}
-
 
 /* THIS ONE IS DONE FOR YOU */
 #bar-chart {
@@ -296,19 +275,33 @@ nav h2 {
     #services .container {
     grid-template-columns: repeat(2, 1fr);
     }
-    .results {
-        grid-template-columns: 1fr 1fr;
-    }
-    #results-table {
-        width: 50%;
-    }
-    #bar-chart {
-        width: 50%;
-    }
     .service h3 {
         text-wrap: wrap;
         max-width: 22ch;
         line-height: 1.7rem;
+    }
+    .results-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    }
+    .results-container h3:nth-of-type(1) {
+    grid-column: 1;
+    grid-row: 1;
+    }
+    #results-table {
+    grid-column: 1;
+    grid-row: 2;
+    width: 100%;
+    }
+    .results-container h3:nth-of-type(2) {
+    grid-column: 2;
+    grid-row: 1;
+    }
+    #bar-chart {
+    grid-column: 2;
+    grid-row: 2;
+    width: 100%;
     }
 }
 
