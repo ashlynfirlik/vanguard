@@ -354,9 +354,4 @@ nav h2 {
     #services .container {
         grid-template-columns: repeat(3, 1fr);
     }
-    .service h3 {
-        text-wrap: wrap;
-        max-width: 22ch;
-        line-height: 1.7rem;
-    }
 }
