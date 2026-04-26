@@ -356,6 +356,19 @@ button[type="submit"] {
     font-size: 1.2rem;
 }
 
+footer {
+    background-color: var(--black);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: var(--white);
+    text-align: center;
+}
+
+footer p {
+    line-height: 8px;
+    font-weight: lighter;
+}
+
 /* MEDIA QUERIES (MEDIUM) */ 
 
 @media (min-width: 800px) {
