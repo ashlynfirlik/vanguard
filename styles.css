@@ -93,7 +93,7 @@ table {
     text-decoration: none;
     color: var(--blue);
     transition: background-color .3s ease-in;
-}   
+    }   
     nav a:hover, nav input:hover {
     background-color: var(--blue);
     color: var(--black);
@@ -129,11 +129,11 @@ table {
     label span:after {
     top: -0.75rem;
     }
-    input {
-    display: none;
-    }
     input:checked ~ ul {
     max-height: 500px;
+    }
+    input[type="checkbox"] {
+        visibility: hidden;
     }
 }
 
