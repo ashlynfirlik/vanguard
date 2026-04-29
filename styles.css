@@ -85,31 +85,41 @@ header img {
 
 }
 
-nav {
-    padding-bottom: 1.5rem;
-}
-
-.nav-left {
-    display: flex;
-    gap: 12px;
-}
-
-nav a {
-    text-decoration: none;
-    color: var(--blue);
-    font-weight: bold;
-    
-}
 nav ul {
-    display: flex;
-    gap: 1.5rem;
+    width: 100%;
     margin: 0;
     padding: 0;
+    list-style: none;
+    overflow: hidden;
+    text-align: center;
+    max-height: 0;
 }
 
 nav h2 {
-    position: absolute;
-    opacity: 0%;
+    visibility: hidden;
+    height: 1px;
+}
+
+nav li a {
+    display: block;
+    font-size: 1.5rem;
+    padding: 1rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+    color: 
+    transition: background-color .3s ease-in;
+}
+
+nav a:hover, nav input:hover {
+    background-color: var(--blue);
+}
+
+nav label {
+    cursor: pointer;
+    display: inline-block;
+    padding: 1.5rem;
+    user-select: none;
 }
 
 h1 {
@@ -384,8 +394,8 @@ footer p {
     padding: 0;
     }
     nav h2 {
-    position: absolute;
-    opacity: 0%;
+    visibility: hidden;
+    height: 1px;
     }
     #services .container {
     grid-template-columns: repeat(2, 1fr);
