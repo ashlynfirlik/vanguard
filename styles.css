@@ -108,9 +108,11 @@ table {
     background-color: white;
     display: block;
     height: .25rem;
-    position: relative;
+    position: absolute;
     transition: background-color .3s ease-out;
     width: 2rem;
+    top: 50px;
+    right: 35px;
     }
     label span:before, label span:after {
     background: var(--white);
@@ -145,6 +147,12 @@ header {
     position: relative;
     z-index: 10;
 }
+
+.nav-left {
+    display: flex;
+    gap: 12px;
+    margin-left: 2rem;
+    }
 
 /* ADD FLOATING SVG LOGO BEFORE THE H1 */
 header img {
@@ -417,11 +425,6 @@ footer p {
     padding-bottom: 2.5rem;
     padding-top: 1rem;
     margin-right: 2rem;
-    }
-    .nav-left {
-    display: flex;
-    gap: 12px;
-    margin-left: 2rem;
     }
     nav a {
     text-decoration: none;
