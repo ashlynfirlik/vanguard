@@ -426,6 +426,13 @@ button[type="submit"] {
     margin-bottom: 20px;
     font-weight: bold;
     font-size: 1.2rem;
+    transition: all .3s;
+}
+
+button[type="submit"]:hover {
+    border: none;
+    transform: scale(1.1, 1.1);
+    background-color: var(--red);
 }
 
 footer {
