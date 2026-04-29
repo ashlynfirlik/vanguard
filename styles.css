@@ -2,9 +2,7 @@
 
 /* IMPORTED FONTS*/
 /* IMPORT "INTER" FROM GOOGLE FONTS" */
-<style>
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
-</style>
 
 /* CSS RESET */
 /* http://meyerweb.com/eric/tools/css/reset/
@@ -152,7 +150,7 @@ header {
     display: flex;
     gap: 12px;
     margin-left: 2rem;
-    }
+}
 
 /* ADD FLOATING SVG LOGO BEFORE THE H1 */
 header img {
