@@ -111,12 +111,13 @@ nav li a {
     text-transform: uppercase;
     font-weight: bold;
     text-decoration: none;
-    color: --white;
+    color: var(--blue);
     transition: background-color .3s ease-in;
 }
 
 nav a:hover, nav input:hover {
     background-color: var(--blue);
+    color: var(--black);
 }
 
 nav label {
