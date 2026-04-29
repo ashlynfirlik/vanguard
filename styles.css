@@ -71,7 +71,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 4%;
+    padding: 1.1rem;
     color: var(--blue);
     background-color: var(--black);
 }
