@@ -138,8 +138,8 @@ table {
 header {
     display: flex;
     justify-content: space-between;
-    padding: 1.1rem;
     color: var(--blue);
+    padding: 1rem 0 .5rem 0;
     background-color: var(--black);
 }
 
@@ -154,7 +154,7 @@ header img {
 }
 
 h1 {
-    padding-bottom: 1.5rem;
+    padding-top: .3rem;
     margin: 0;
 }
 
@@ -412,7 +412,7 @@ footer p {
     }
     nav {
     padding-bottom: 1.5rem;
-    padding-top: 1.1rem;
+    padding-top: 0.8rem;
     }
     .nav-left {
     display: flex;
