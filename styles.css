@@ -70,7 +70,6 @@ table {
 header {
     display: flex;
     justify-content: space-between;
-    align-items: center;
     padding: 1.1rem;
     color: var(--blue);
     background-color: var(--black);
@@ -92,7 +91,6 @@ nav {
 
 .nav-left {
     display: flex;
-    align-items: center;
     gap: 12px;
 }
 
