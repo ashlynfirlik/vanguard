@@ -406,6 +406,10 @@ footer p {
 /* MEDIA QUERIES (MEDIUM) */ 
 
 @media (min-width: 800px) {
+    nav input[type="checkbox"] {
+        visibility: hidden;
+        position: absolute;
+    }
     nav {
     padding-bottom: 1.5rem;
     }
