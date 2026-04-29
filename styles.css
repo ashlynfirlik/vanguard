@@ -411,12 +411,14 @@ footer p {
         position: absolute;
     }
     nav {
-    padding-bottom: 1.5rem;
-    padding-top: 0.8rem;
+    padding-bottom: 1.7rem;
+    padding-top: 1rem;
+    margin-right: 2rem;
     }
     .nav-left {
     display: flex;
     gap: 12px;
+    margin-left: 2rem;
     }
     nav a {
     text-decoration: none;
@@ -424,7 +426,7 @@ footer p {
     font-weight: bold;
     font-size: 1.2rem;
     transition: background-color .3s ease-in;
-    padding: 1rem;
+    padding: 1rem 1.5rem 1rem 1.5rem;
     }
     nav a:hover, nav input:hover {
     background-color: var(--blue);
